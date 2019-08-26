@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Presentation</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="impress">
+		<div class="step">
+			<h1>Hello, Impress.js!</h1>
+		</div>
+		<div class="step" data-x="1000" dat-z="-500" data-rotate-y="45">
+			<h2>Image</h2>
+			<img src="https://placehold.it/500">
+		</div>
+		<div class="step" data-x="2000" dat-z="-2000" data-rotate-y="45" id="slide">
+			<h2>Image</h2>
+			<img src="https://placehold.it/500">
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.min.js"></script>
+	<script>impress().init()</script>
+</body>
+</html>
